@@ -49,13 +49,6 @@ const Detail = () =>{
                             </div>
                             <img src="./download.png" alt="" className="icon" />
                         </div>
-                        <div className="photoItem">
-                            <div className="photoDetail">
-                                <img src="./avatar.png" alt="" />
-                                <span>photo_2024_2.png</span>
-                            </div>
-                            <img src="./download.png" alt="" className="icon" />
-                        </div>
                     </div>
                 </div>
                 <div className="option">
@@ -65,6 +58,7 @@ const Detail = () =>{
                     </div>
                 </div>
                 <button>Block User</button>
+                <button className="logout">Logout</button>
             </div>
         </div>
     );

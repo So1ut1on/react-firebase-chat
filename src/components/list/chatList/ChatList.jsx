@@ -1,5 +1,5 @@
-import { useState } from "react"
-import "./chatList.css"
+import { useState } from "react";
+import "./chatList.css";
 
 const ChatList = () =>{
     const [addMode, setAddMod] = useState(false)
